@@ -24,6 +24,9 @@ public class Calculadora {
         return Math.pow(base, exponente);
     }
 
+    public static boolean esPar(int numero) {
+        return numero % 2 == 0;
+    }
 
 
  
@@ -35,6 +38,8 @@ public class Calculadora {
         System.out.println("División: " + dividir(8, 4));
         System.out.println("División entre cero: " + dividir(8, 0));
         System.out.println("Potencia 2^10: " + potencia(2, 10));
+        System.out.println("¿8 es par? " + esPar(8));
+        System.out.println("¿7 es par? " + esPar(7));
 
     }
 
