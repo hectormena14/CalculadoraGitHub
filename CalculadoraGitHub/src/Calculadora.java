@@ -10,6 +10,14 @@ public class Calculadora {
     public static double multiplicar(double a, double b) {
         return a * b;
     }
+    
+    public static double dividir(double a, double b) {
+        if (b == 0) {
+            System.out.println("Error: no se puede dividir entre cero");
+        } 
+        return a / b;
+    }
+
 
  
     public static void main(String[] args) {
